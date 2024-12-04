@@ -4,22 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "e91d754db468afaf",
+        "id": "217f9ef3561ae4fa",
         "type": "tabs",
         "children": [
           {
-            "id": "c373b9d5d8d9f061",
+            "id": "46182c795aa39316",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/Algo/Algo 23-09-2024.md",
+                "file": "Cours/Anglais/Anglais 19-11-2024.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Anglais 19-11-2024"
+            }
+          },
+          {
+            "id": "7662ef363e115373",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cours/Windows-Server-Avancé/04-12-2024.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "04-12-2024"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorateur de fichiers"
             }
           },
           {
@@ -54,7 +73,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Rechercher"
             }
           },
           {
@@ -62,7 +83,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Signet"
             }
           }
         ]
@@ -85,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Algo/Algo 23-09-2024.md",
+                "file": "Cours/Architecture réseau/Architecture réseau 05-11-2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +116,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Rétrolien pour Architecture réseau 05-11-2024"
             }
           },
           {
@@ -102,10 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Algo/Algo 23-09-2024.md",
+                "file": "Cours/Architecture réseau/Architecture réseau 05-11-2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Liens sortants de Architecture réseau 05-11-2024"
             }
           },
           {
@@ -116,7 +143,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Mots-clés"
             }
           },
           {
@@ -125,16 +154,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/Algo/Algo 23-09-2024.md"
-              }
+                "file": "Cours/Architecture réseau/Architecture réseau 05-11-2024.md"
+              },
+              "icon": "lucide-list",
+              "title": "Plan de Architecture réseau 05-11-2024"
+            }
+          },
+          {
+            "id": "3dd1663f53e8b254",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,26 +184,57 @@
       "canvas:Créer une nouvelle toile": false,
       "daily-notes:Ouvrir la note quotidienne": false,
       "templates:Insérer le modèle": false,
-      "command-palette:Ouvrir la palette de commandes": false
+      "command-palette:Ouvrir la palette de commandes": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c373b9d5d8d9f061",
+  "active": "7662ef363e115373",
   "lastOpenFiles": [
-    "Cours/Algo/Algo 10-09-2024.md",
-    "fonction.md",
+    "Cours/Windows-Server-Avancé/20-11-2024.md",
+    "Cours/Windows-Server-Avancé/04-12-2024.md",
+    "Cours/Anglais/Anglais 19-11-2024.md",
+    "Cours/Connaissances générales et comportementale/Connaissances générales et comportementale 02-12-2024.md",
+    "Cours/Connaissances générales et comportementale",
+    "Pasted image 20241120104134.png",
+    "Pasted image 20241120103230.png",
+    "Pasted image 20241120103215.png",
+    "Pasted image 20241120092036.png",
+    "Pasted image 20241120091807.png",
+    "Pasted image 20241120091618.png",
+    "Pasted image 20241120091241.png",
+    "Pasted image 20241120090716.png",
+    "Pasted image 20241120090649.png",
+    "Pasted image 20241120085420.png",
+    "Cours/Windows-Server-Avancé",
+    "Cours/Projet/Projet.md",
+    "Cours/Anglais/Anglais 12-11-2024.md",
+    "Cours/Architecture réseau/Architecture réseau 05-11-2024.md",
+    "Cours/Architecture réseau/Architecture réseau 04-11-2024.md",
+    "Cours/Anglais/Anglais 13-11-2024.md",
+    "Cours/Anglais/Anglais 14-10-2024.md",
+    "Cours/Anglais/Anglais 09-10-2024.md",
+    "Cours/Projet",
+    "Cours/Windows-Server-DNS/Windows-Server-DNS 15-10-2024.md",
+    "Cours/Architecture réseau",
+    "Cours/Windows-Server-DNS",
+    "Cours/Sans titre.md",
+    "Cours/Gestion de parc/Gestion de parc 25-09-2024.md",
+    "Cours/Gestion de parc/Gestion de parc 02-10-2024.md",
+    "Cours/Culture Juridique/Culture Juridique 09-10-2024.md",
+    "Cours/Anglais",
+    "Cours/Cloud/Cloud 08-10-2024.md",
+    "Cours/Culture Juridique",
+    "Cours/Cloud/Cloud 07-10-2024.md",
+    "Cours/Image",
+    "Cours/Cloud",
+    "Cours/Gestion de parc",
     "Cours/Module A/Séance 1.md",
     "Cours/Module A/Séance 2.md",
+    "Cours/Algo/Algo 24-09-2024.md",
+    "Cours/Algo/Algo 23-09-2024.md",
+    "Cours/Algo/Algo 10-09-2024.md",
+    "fonction.md",
     "Veille/Ressources web.md",
-    "Cours/Algo",
-    "README.md",
-    "Cours/Sans titre 1",
-    "Cours/Module A",
-    "Veille",
-    "Cours",
-    "ALGO/Sommaire.md",
-    "Welcome.md",
-    "ALGO",
-    "CSS",
-    "HTML"
+    "README.md"
   ]
 }
