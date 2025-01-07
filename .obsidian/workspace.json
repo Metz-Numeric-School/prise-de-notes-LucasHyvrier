@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/Windows-Server-Avancé/04-12-2024.md",
+                "file": "Cours/Architecture réseau/Switch ou Hub 07-01-2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-12-2024"
+              "title": "Switch ou Hub 07-01-2025"
             }
           }
         ],
@@ -190,31 +190,39 @@
   },
   "active": "7662ef363e115373",
   "lastOpenFiles": [
-    "Cours/Windows-Server-Avancé/20-11-2024.md",
-    "Cours/Windows-Server-Avancé/04-12-2024.md",
-    "Cours/Anglais/Anglais 19-11-2024.md",
-    "Cours/Connaissances générales et comportementale/Connaissances générales et comportementale 02-12-2024.md",
-    "Cours/Connaissances générales et comportementale",
+    "Cours/Architecture réseau/Architecture réseau 06-01-2025.md",
+    "Cours/Architecture réseau/Switch ou Hub 07-01-2025.md",
+    "Cours/Windows-Server-DNS/Windows-Server-DNS 15-10-2024.md",
+    "README.md",
+    "Sans titre.canvas",
+    "Sans titre 1.canvas",
+    "Sans titre 2.canvas",
     "Pasted image 20241120104134.png",
     "Pasted image 20241120103230.png",
     "Pasted image 20241120103215.png",
     "Pasted image 20241120092036.png",
     "Pasted image 20241120091807.png",
-    "Pasted image 20241120091618.png",
     "Pasted image 20241120091241.png",
     "Pasted image 20241120090716.png",
     "Pasted image 20241120090649.png",
     "Pasted image 20241120085420.png",
+    "Pasted image 20241106155206.png",
+    "2025-01-06.md",
+    "Cours/Windows-Server-Avancé/20-11-2024.md",
+    "Cours/Windows-Server-Avancé/10-12-2024.md",
+    "Cours/Windows-Server-Avancé/04-12-2024.md",
+    "Cours/Connaissances générales et comportementale/Connaissances générales et comportementale 02-12-2024.md",
+    "Cours/Architecture réseau/Architecture réseau 05-11-2024.md",
+    "Cours/Architecture réseau/Architecture réseau 04-11-2024.md",
+    "Cours/Anglais/Anglais 19-11-2024.md",
+    "Cours/Connaissances générales et comportementale",
     "Cours/Windows-Server-Avancé",
     "Cours/Projet/Projet.md",
     "Cours/Anglais/Anglais 12-11-2024.md",
-    "Cours/Architecture réseau/Architecture réseau 05-11-2024.md",
-    "Cours/Architecture réseau/Architecture réseau 04-11-2024.md",
     "Cours/Anglais/Anglais 13-11-2024.md",
     "Cours/Anglais/Anglais 14-10-2024.md",
     "Cours/Anglais/Anglais 09-10-2024.md",
     "Cours/Projet",
-    "Cours/Windows-Server-DNS/Windows-Server-DNS 15-10-2024.md",
     "Cours/Architecture réseau",
     "Cours/Windows-Server-DNS",
     "Cours/Sans titre.md",
@@ -230,11 +238,6 @@
     "Cours/Gestion de parc",
     "Cours/Module A/Séance 1.md",
     "Cours/Module A/Séance 2.md",
-    "Cours/Algo/Algo 24-09-2024.md",
-    "Cours/Algo/Algo 23-09-2024.md",
-    "Cours/Algo/Algo 10-09-2024.md",
-    "fonction.md",
-    "Veille/Ressources web.md",
-    "README.md"
+    "Cours/Algo/Algo 24-09-2024.md"
   ]
 }
