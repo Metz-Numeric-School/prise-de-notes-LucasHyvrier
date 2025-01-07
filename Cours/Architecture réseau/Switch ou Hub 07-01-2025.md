@@ -1,6 +1,7 @@
 
 
 
-Le switch est en full duplex (reçoit et envoie en même temp)
+Les câbles **duplex** peuvent être **half**-**duplex** ou **full**-**duplex**. Le câble **half**-**duplex** permet la transmission des données dans les deux sens mais pas simultanément. Le câble **full**-**duplex** permet un transfert des données dans les deux directions et simultanément.
 
-Le Hub est un alphe duplex (reçoit et envoie mais pas en même temp)
+## ![[Pasted image 20250107164857.png]]
+
