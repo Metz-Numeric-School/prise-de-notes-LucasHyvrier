@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/Architecture réseau/Switch ou Hub 07-01-2025.md",
+                "file": "Cours/Anglais/Anglais 13-01-2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Switch ou Hub 07-01-2025"
+              "title": "Anglais 13-01-2025"
             }
           }
         ],
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "right": {
     "id": "78f6df6de190eea1",
@@ -188,12 +189,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7662ef363e115373",
+  "active": "3dd1663f53e8b254",
   "lastOpenFiles": [
+    "Cours/Architecture réseau/Switch ou Hub 07-01-2025.md",
+    "Cours/Anglais/Anglais 13-01-2025.md",
     "Pasted image 20250107164857.png",
     "Pasted image 20250107164805.png",
     "Cours/Architecture réseau/Architecture réseau 06-01-2025.md",
-    "Cours/Architecture réseau/Switch ou Hub 07-01-2025.md",
     "Cours/Windows-Server-DNS/Windows-Server-DNS 15-10-2024.md",
     "README.md",
     "Sans titre.canvas",
@@ -207,7 +209,6 @@
     "Pasted image 20241120091241.png",
     "Pasted image 20241120090716.png",
     "Pasted image 20241120090649.png",
-    "Pasted image 20241120085420.png",
     "2025-01-06.md",
     "Cours/Windows-Server-Avancé/20-11-2024.md",
     "Cours/Windows-Server-Avancé/10-12-2024.md",
