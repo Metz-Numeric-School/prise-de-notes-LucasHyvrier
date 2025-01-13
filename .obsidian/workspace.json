@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "46182c795aa39316",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cours/Anglais/Anglais 19-11-2024.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Anglais 19-11-2024"
-            }
-          },
-          {
             "id": "7662ef363e115373",
             "type": "leaf",
             "state": {
@@ -35,8 +21,7 @@
               "title": "Anglais 13-01-2025"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
-    "collapsed": true
+    "width": 317.5
   },
   "right": {
     "id": "78f6df6de190eea1",
@@ -189,10 +173,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3dd1663f53e8b254",
+  "active": "7662ef363e115373",
   "lastOpenFiles": [
-    "Cours/Architecture réseau/Switch ou Hub 07-01-2025.md",
+    "Cours/Anglais/Anglais 13-11-2024.md",
+    "Cours/Anglais/Anglais 14-10-2024.md",
+    "Cours/Anglais/Anglais 19-11-2024.md",
+    "Cours/Anglais/Anglais 12-11-2024.md",
     "Cours/Anglais/Anglais 13-01-2025.md",
+    "Cours/Architecture réseau/Switch ou Hub 07-01-2025.md",
     "Pasted image 20250107164857.png",
     "Pasted image 20250107164805.png",
     "Cours/Architecture réseau/Architecture réseau 06-01-2025.md",
@@ -216,13 +204,9 @@
     "Cours/Connaissances générales et comportementale/Connaissances générales et comportementale 02-12-2024.md",
     "Cours/Architecture réseau/Architecture réseau 05-11-2024.md",
     "Cours/Architecture réseau/Architecture réseau 04-11-2024.md",
-    "Cours/Anglais/Anglais 19-11-2024.md",
     "Cours/Connaissances générales et comportementale",
     "Cours/Windows-Server-Avancé",
     "Cours/Projet/Projet.md",
-    "Cours/Anglais/Anglais 12-11-2024.md",
-    "Cours/Anglais/Anglais 13-11-2024.md",
-    "Cours/Anglais/Anglais 14-10-2024.md",
     "Cours/Anglais/Anglais 09-10-2024.md",
     "Cours/Projet",
     "Cours/Architecture réseau",
