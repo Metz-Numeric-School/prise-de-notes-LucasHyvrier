@@ -299,3 +299,16 @@ SW-L3  [SWITCH leyer 3 ]
 conf t ip routing [(la commande qui déclenche le routage inter Vlan)]
 
 # Éteindre les machines c mieux une fois qu'on l'utilise plus  
+
+
+
+
+
+
+
+
+
+
+
+
+
