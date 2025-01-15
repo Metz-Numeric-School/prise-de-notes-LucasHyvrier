@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/Anglais/Anglais 13-01-2025.md",
+                "file": "Cours/Architecture réseau/PNET LAB.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Anglais 13-01-2025"
+              "title": "PNET LAB"
             }
           }
         ]
@@ -175,11 +175,12 @@
   },
   "active": "7662ef363e115373",
   "lastOpenFiles": [
+    "Cours/Anglais/Anglais 13-01-2025.md",
+    "Cours/Architecture réseau/PNET LAB.md",
     "Cours/Anglais/Anglais 13-11-2024.md",
     "Cours/Anglais/Anglais 14-10-2024.md",
     "Cours/Anglais/Anglais 19-11-2024.md",
     "Cours/Anglais/Anglais 12-11-2024.md",
-    "Cours/Anglais/Anglais 13-01-2025.md",
     "Cours/Architecture réseau/Switch ou Hub 07-01-2025.md",
     "Pasted image 20250107164857.png",
     "Pasted image 20250107164805.png",
@@ -222,7 +223,6 @@
     "Cours/Image",
     "Cours/Cloud",
     "Cours/Gestion de parc",
-    "Cours/Module A/Séance 1.md",
-    "Cours/Module A/Séance 2.md"
+    "Cours/Module A/Séance 1.md"
   ]
 }
