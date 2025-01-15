@@ -369,6 +369,26 @@ Toujours sur R-01 [ROUTEUR]
 conf t
 int e0/0
 no shut
+"control z"
+wr
+
+
+## [Comment mettre un pc virtuelle]
+
+Network
+Cloud 1
+VMnet 3 [C'est l'interface qu'on a attribuer a notre vm]
+![[Pasted image 20250115151252.png]]
+
+
+
+
+
+
+
+
+
+
 
 
 
