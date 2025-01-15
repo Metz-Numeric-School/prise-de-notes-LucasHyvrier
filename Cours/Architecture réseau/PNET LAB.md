@@ -296,7 +296,7 @@ ping 172.16.2.113 [(ping imprimante car par default il y a "ip routing" dans le 
 
 SW-L3  [SWITCH leyer 3 ]
 
-conf t ip routing [(la commande qui déclenche le routage inter Vlan)]
+conf t ip routing [(la commande qui déclenche le routage inter Vlan sur le switch pilier)]
 
 # Éteindre les machines c mieux une fois qu'on l'utilise plus  
 
