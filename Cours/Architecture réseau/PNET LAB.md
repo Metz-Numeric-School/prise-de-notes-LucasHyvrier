@@ -2,8 +2,8 @@
 
 
 
-Mettre 3 switch avec 5 bloque pour Ethernet
-Renommé les switchs : switch 1-3
+Mettre 3 switches avec 5 bloque pour Ethernet
+Renommé les switches : switch 1-3
 prendre un switch et le rappeler L3
 
 Mettre un routeur du nom R1
@@ -51,3 +51,17 @@ VLAN 60 : SERVERS (10)
 172.16.2.128
 255.255.255.240
 GW : 172.16.2.133
+
+
+## Important :
+
+Créer des étiquettes pour chaque Vlan et mettre leur adresse IP en même temp, mettre des .1 pour les vPC et pour les imprimantes .113 à .115 
+![[Pasted image 20250115110826.png]]
+
+
+
+
+
+
+
+
