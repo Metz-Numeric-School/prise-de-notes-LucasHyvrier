@@ -311,6 +311,96 @@ ping 172.16.2.62
 
 
 
+SW-L3  [SWITCH leyer 3 ]
+
+conf t
+int e1/0
+no sw [(pour quelle soit plus une interface de switch car elle est en face d'un routeur)
+ip add 10.10.20.2 255.255.255.252
+no shut
+exit
+ip route 0.0.0.0 0.0.0.0 10.10.20.1           [(les 0.0.0.0 c les chemins par défaut)]
+"control z"
+wr
+
+
+
+R-01  [ROUTEUR]
+
+en
+conf t
+int e0/1
+ip add 10.10.20.1 255.255.255.252
+no shut
+exit
+
+ip route 172.16.1.0 255.255.255.0 10.10.20.2 (vlan 10 pour aller en bas)
+ip route 172.16.2.0 255.255.255.192 10.10.20.2 (vlan 20 pour aller en bas)
+ip route 172.16.2.64 255.255.255.224 10.10.20.2 (vlan 30 pour aller en bas)
+ip route 172.16.2.96 255.255.255.240 10.10.20.2 
+ip route 172.16.2.112 255.255.255.240 10.10.20.2
+ip route 172.16.2.128 255.255.255.240 10.10.20.2 
+
+
+vPC-01
+ping 10.10.20.2
+
+
+R-01 [ROUTEUR]
+
+conf t
+int e0/0
+ip nat outside
+exit
+int e0/1
+ip nat inside
+exit
+access-list 10 ?
+access-list 10 permit 172.16.1.0 0.0.0.255
+ip nat inside source list 10 ?
+ip nat inside source list 10 int e0/0 overload [(l'interface la plus prêt de internet qu'on met)
+ip add dhcp
+
+
+###                Important : e0/0 [doit choper une adresse ip de vmware]
+
+Toujours sur R-01 [ROUTEUR]
+
+conf t
+int e0/0
+no shut
+
+
+
+vPC-01
+ping 8.8.8.8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
