@@ -292,7 +292,7 @@ ping 172.16.2.62
 
 ## Normalement sa marche pas c normal
 
-ping 172.16.2.113 [(ping imprimante car par default il y a "ip routing" dans le layer 3 mais normalement ça ne marche pas)
+ping 172.16.2.113 [(ping l'imprimante mais par default il y a "ip routing" dans le layer 3 mais normalement il n'y est pas)
 
 SW-L3  [SWITCH leyer 3 ]
 
@@ -308,6 +308,8 @@ ping 172.16.2.254
 
 vPC-02  
 ping 172.16.2.62
+
+
 
 
 
