@@ -114,7 +114,188 @@ set pcname vPRN-03
 save
 
 
+# Important :
+
+Déconnecter tout lien avec les switches, choisir 
+
+
+
+SW-L3  [SWITCH leyer 4]  :
+
+conf t 
+vtp domain BSRC 2 (Pour donner un domaine)
+vtp password MNS (Pour donner un MDP au moment de rentrer dans le domaine)
+vlan 10
+name SALES
+vlan 20
+name R&D
+vlan 30
+name MGT
+vlan 40
+name IT
+vlan 50
+name PRINTERS
+vlan 60
+name SERVERS
+exit
+show vlan br
+conf t
+int range E0/1-3
+sw tr enc dot ([pour mettre le switch en mode trunk)
+sw mode tr
+exit
+exit
+wr
+
+SW-01  [SWITCH ]  :
+
+conf t
+vtp mode client
+vtp domain BSRC 2
+vtp password MNS
+int range E0/0-3
+sw mo tr ([marche pas c normal])
+sw tr enc dot
+sw mo tr
+exit
+exit 
+wr
+
+
+SW-02  [SWITCH ]  :
+
+conf t
+vtp mode client
+vtp domain BSRC 2
+vtp password MNS
+int range E0/0-3
+sw tr enc dot
+sw mo tr
+exit
+exit 
+wr
+
+SW-03  [SWITCH ]  :
+
+conf t
+vtp mode client
+vtp domain BSRC 2
+vtp password MNS
+int range E0/0-3
+sw tr enc dot
+sw mo tr
+exit
+exit 
+wr
+
+
+# important :
+
+### Relier tout ensemble 
+
+SW-01  [SWITCH ]  :
+
+Show vlan br
+conf t
+int range e1/0-3
+sw mo ac
+sw ac vlan 10
+exit
+int range e2/0-3
+sw mo ac
+sw ac vlan 50
+exit
+show int tr ([pour voir les interfaces en trunks])
+"control z" 
+wr
+
+SW-02  [SWITCH ]  :
+
+Show vlan br
+conf t
+int range e1/0-3
+sw mo ac
+sw ac vlan 10
+exit
+int range e2/0-3
+sw mo ac
+sw ac vlan 50
+exit
+show int tr 
+"control z" 
+wr
+
+SW-03  [SWITCH ]  :
+
+Show vlan br
+conf t
+int range e1/0-3
+sw mo ac
+sw ac vlan 30
+exit
+int range e2/0-3
+sw mo ac
+sw ac vlan 40
+exit
+int range e3/0-3
+sw mo ac
+sw ac vlan 50
+exit
+int range e4/0-3
+sw mo ac
+sw ac vlan 60
+exit
+show int tr 
+"control z" 
+wr
 
 
 
 
+SW-L3  [SWITCH leyer 3 ]
+
+conf t 
+int vlan 10
+ip add 172.16.1.254 255.255.255.0
+no shut
+exit
+int vlan 20
+ip add 172.16.2.62 255.255.255.192
+no shut
+exit
+int vlan 30
+ip add 172.16.2.94 255.255.255.224
+no shut
+exit
+int vlan 40
+ip add 172.16.2.110 255.255.255.240
+no shut
+exit
+int vlan 50
+ip add 172.16.2.126 255.255.255.240
+no shut
+exit
+int vlan 60
+ip add 172.16.2.142 255.255.255.240
+no shut
+exit
+"controle z"
+sh ip int br ([pour voir si elles sont up et capable de ping la passerelle)
+
+# Test sur vPC
+
+vPC-01  
+ping 172.16.2.254
+
+vPC-02  
+ping 172.16.2.62
+
+## Normalement tous marche [Si marche pas voir prof]
+
+ping 172.16.2.113 [(ping imprimante car par default il y a "ip routing" dans le layer 3 mais normalement ça ne marche pas)
+
+SW-L3  [SWITCH leyer 3 ]
+
+conf t ip routing [(la commande qui déclenche le routage inter Vlan)]
+
+# Éteindre les machines c mieux une fois qu'on l'utilise plus  
