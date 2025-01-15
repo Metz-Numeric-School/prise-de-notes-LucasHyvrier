@@ -290,7 +290,7 @@ ping 172.16.2.254
 vPC-02  
 ping 172.16.2.62
 
-## Normalement tous marche [Si marche pas voir prof]
+## Normalement sa marche pas c normal
 
 ping 172.16.2.113 [(ping imprimante car par default il y a "ip routing" dans le layer 3 mais normalement ça ne marche pas)
 
@@ -299,6 +299,16 @@ SW-L3  [SWITCH leyer 3 ]
 conf t ip routing [(la commande qui déclenche le routage inter Vlan)]
 
 # Éteindre les machines c mieux une fois qu'on l'utilise plus  
+
+
+# Test sur vPC
+
+vPC-01  
+ping 172.16.2.254
+
+vPC-02  
+ping 172.16.2.62
+
 
 
 
