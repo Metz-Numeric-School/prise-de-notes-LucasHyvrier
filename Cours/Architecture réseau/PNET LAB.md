@@ -56,9 +56,62 @@ GW : 172.16.2.133
 ## Important :
 
 Créer des étiquettes pour chaque Vlan et mettre leur adresse IP en même temp, mettre des .1 pour les vPC et pour les imprimantes .113 à .115 
+
 ![[Pasted image 20250115110826.png]]
 
+# Commande :
 
+vPC-01 :
+
+ip 172.16.1.1/24 172.16.1.254
+? [(Pour voir toutes les commandes qu'on peut faire)
+set pcname vPC-01 [(pour changer le nom mais dans le pc)
+save
+
+vPC-02 :
+
+ip 172.16.2.1/26 172.16.2.62
+set pcname vPC-02 
+save
+
+vPC-03 :
+
+ip 172.16.2.65/27 172.16.2.94
+set pcname vPC-03 
+save
+
+
+vPC-04 [LAPTOP] :
+
+ip 172.16.2.97/28 172.16.2.110
+set pcname vPC-04 
+save
+
+
+vPC-0-6 [SERVER] :
+
+ip 172.16.2.129/28 172.16.2.142
+set pcname vPC-06
+save
+
+
+vPRN-01 [IMPRIMANTE]  :
+
+ip 172.16.2.113/28 172.16.2.126
+set pcname vPRN-01 
+save
+
+vPRN-02  [IMPRIMANTE]  :
+
+ip 172.16.2.114/28 172.16.2.126
+set pcname vPRN-02 
+save
+
+vPRN-03  [IMPRIMANTE]  :
+
+ip 172.16.2.114/28 172.16.2.126
+set pcname vPRN-03 
+save
 
 
 
