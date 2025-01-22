@@ -109,7 +109,7 @@ save
 
 vPRN-03  [IMPRIMANTE]  :
 
-ip 172.16.2.114/28 172.16.2.126
+ip 172.16.2.115/28 172.16.2.126
 set pcname vPRN-03 
 save
 
@@ -362,6 +362,11 @@ ip nat inside source list 10 int e0/0 overload [(l'interface la plus prêt de in
 ip add dhcp
 
 
+
+
+![[Pasted image 20250115163902.png]]
+
+
 ###                Important : e0/0 [doit choper une adresse ip de vmware]
 
 Toujours sur R-01 [ROUTEUR]
@@ -379,14 +384,6 @@ Network
 Cloud 1
 VMnet 3 [C'est l'interface qu'on a attribuer a notre vm]
 ![[Pasted image 20250115151252.png]]
-
-
-
-
-
-
-
-
 
 
 
