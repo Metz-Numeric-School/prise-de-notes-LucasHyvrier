@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/Windows-Server-Avancé/27-01-2025 Service WDS.md",
+                "file": "Cours/Windows-Server-Avancé/PNET.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "27-01-2025 Service WDS"
+              "title": "PNET"
             }
           }
         ]
@@ -175,9 +175,12 @@
   },
   "active": "7662ef363e115373",
   "lastOpenFiles": [
-    "Cours/Culture Juridique/Culture Juridique 22-01-2025.md",
-    "Cours/Windows-Server-Avancé/27-01-2025 Service WDS.md",
     "Cours/Architecture réseau/PNET LAB.md",
+    "Cours/Windows-Server-Avancé/PNET.md",
+    "Cours/Architecture réseau/Architecture réseau 05-11-2024.md",
+    "Cours/Architecture réseau/Architecture réseau 06-01-2025.md",
+    "Cours/Windows-Server-Avancé/27-01-2025 Service WDS.md",
+    "Cours/Culture Juridique/Culture Juridique 22-01-2025.md",
     "Pasted image 20250115163902.png",
     "Pasted image 20250115163840.png",
     "Pasted image 20250115151252.png",
@@ -190,8 +193,7 @@
     "Cours/Architecture réseau/Switch ou Hub 07-01-2025.md",
     "Pasted image 20250107164857.png",
     "Pasted image 20250107164805.png",
-    "Cours/Architecture réseau/Architecture réseau 06-01-2025.md",
-    "Cours/Windows-Server-DNS/Windows-Server-DNS 15-10-2024.md",
+    "Cours/Windows-Server-Avancé/Windows-Server-DNS 15-10-2024.md",
     "README.md",
     "Sans titre.canvas",
     "Sans titre 1.canvas",
@@ -205,7 +207,6 @@
     "Cours/Windows-Server-Avancé/10-12-2024.md",
     "Cours/Windows-Server-Avancé/04-12-2024.md",
     "Cours/Connaissances générales et comportementale/Connaissances générales et comportementale 02-12-2024.md",
-    "Cours/Architecture réseau/Architecture réseau 05-11-2024.md",
     "Cours/Architecture réseau/Architecture réseau 04-11-2024.md",
     "Cours/Connaissances générales et comportementale",
     "Cours/Windows-Server-Avancé",
@@ -219,7 +220,6 @@
     "Cours/Gestion de parc/Gestion de parc 02-10-2024.md",
     "Cours/Culture Juridique/Culture Juridique 09-10-2024.md",
     "Cours/Anglais",
-    "Cours/Cloud/Cloud 08-10-2024.md",
     "Cours/Culture Juridique",
     "Cours/Image",
     "Cours/Cloud",
