@@ -661,5 +661,105 @@ Les ACL étendues permettent un filtrage plus précis que les ACL standard en te
 Les ACL nommées sont plus lisibles car elles utilisent des noms explicites au lieu de simples numéros. Elles sont plus flexibles car on peut modifier, ajouter ou supprimer des règles sans recréer toute l'ACL. Elles permettent une meilleure documentation avec des commentaires pour expliquer les règles. Leur gestion est plus organisée et évolutive, surtout dans les réseaux complexes. Enfin, elles facilitent le dépannage et la maintenance en rendant les configurations plus compréhensibles.
 ![[Pasted image 20250305114833.png]]
 
+
+
+
 ## Exercice : 5.4.12 Packet Tracer - Configure Extended IPv4 ACLs - Scenario 1
+
+### **Partie 1 : Configurer, Appliquer et Vérifier une ACL Numérotée Étendue**
+
+#### **Étape 1 : Configurer une ACL pour permettre FTP et ICMP depuis le réseau de PC1**
+
+1. **Quel est le premier numéro valide pour une ACL étendue ?**  
+    → **100** (les ACLs étendues vont de **100 à 199**).
+    
+2. **Pourquoi FTP n’apparaît-il pas dans la liste des protocoles disponibles ?**  
+    → FTP est un **protocole de couche application** qui utilise **TCP** au niveau transport.
+    
+3. **Quelle est la wildcard mask pour le sous-réseau 172.22.34.64/27 ?**  
+    → **0.0.0.31** (l’opposé binaire du masque **255.255.255.224**).
+    
+4. **Pourquoi la commande `eq` est utilisée après la définition de l’adresse du serveur ?**  
+    → Elle permet de **filtrer le trafic en fonction du port**, ici **eq ftp (port 21)**.
+    
+5. **Pourquoi n’est-il pas nécessaire de préciser un type d’ICMP ?**  
+    → L’ACL **autorise tout le trafic ICMP**, ce qui inclut les pings et autres types de messages ICMP.
+    
+6. **Pourquoi la règle `deny any any` n’apparaît-elle pas dans l’ACL ?**  
+    → Parce qu’un **deny implicite** est présent par défaut, tout ce qui n’est pas explicitement autorisé est rejeté.
+    
+
+---
+
+#### **Étape 2 : Appliquer l’ACL sur l’interface appropriée**
+
+1. **Sur quelle interface faut-il appliquer l’ACL 100 ?**  
+    → **GigabitEthernet 0/0**, car c’est l’interface qui reçoit le trafic entrant depuis **PC1**.
+    
+8. **Dans quelle direction doit-on appliquer l’ACL ?**  
+    → **"in" (entrée)**, car elle doit filtrer le trafic entrant depuis **PC1** vers le serveur.
+    
+
+---
+
+#### **Étape 3 : Vérifier l’implémentation de l’ACL**
+
+1. **Que doit-on vérifier si le ping entre PC1 et le serveur échoue ?**  
+    → **Vérifier les adresses IP configurées** sur les appareils et l’interface concernée.
+    
+10. **Quelles sont les identifiants pour la connexion FTP au serveur ?**  
+    → **Utilisateur : cisco | Mot de passe : cisco**.
+    
+11. **Pourquoi le ping entre PC1 et PC2 échoue ?**  
+    → L’ACL **n’autorise pas explicitement la communication entre PC1 et PC2**, donc elle est bloquée par le **deny implicite**.
+    
+
+---
+
+### **Partie 2 : Configurer, Appliquer et Vérifier une ACL Nommée Étendue**
+
+#### **Étape 1 : Configurer une ACL pour autoriser HTTP et ICMP depuis PC2**
+
+1. **Pourquoi faut-il utiliser une ACL étendue au lieu d’une ACL standard ?**  
+    → Une ACL **étendue permet de filtrer en fonction des adresses source et destination, ainsi que des ports spécifiques**.
+    
+13. **Quel est le nom de l’ACL nommée ?**  
+    → **HTTP_ONLY** (respecter la casse).
+    
+14. **Quelle est la wildcard mask pour le sous-réseau 172.22.34.96/28 ?**  
+    → **0.0.0.15** (l’opposé binaire du masque **255.255.255.240**).
+    
+15. **Quel port est utilisé pour le trafic web (HTTP) ?**  
+    → **80** (eq www).
+    
+
+---
+
+#### **Étape 2 : Appliquer l’ACL sur l’interface appropriée**
+
+1. **Sur quelle interface faut-il appliquer l’ACL nommée HTTP_ONLY ?**  
+    → **GigabitEthernet 0/1**, car c’est l’interface qui reçoit le trafic de **PC2**.
+    
+17. **Dans quelle direction doit-on appliquer cette ACL ?**  
+    → **"in" (entrée)**, car elle filtre le trafic venant de **PC2** vers le serveur.
+    
+
+---
+
+#### **Étape 3 : Vérifier l’implémentation de l’ACL**
+
+1. **Comment vérifier si l’ACL HTTP_ONLY est correctement configurée ?**  
+    → Utiliser la commande **`show access-lists`**.
+    
+19. **Quels tests doivent réussir ?**
+    
+
+- **Le ping entre PC2 et le serveur** → **Réussi**.
+- **L’accès HTTP (navigateur) de PC2 vers le serveur** → **Réussi**.
+- **L’accès FTP depuis PC2 vers le serveur** → **Échec**, car **non autorisé par l’ACL**.
+
+![[Pasted image 20250305135135.png]]
+
+
+## Exercice : 5.4.13 Packet Tracer - Configure Extended IPv4 ACLs - Scenario 2
 
