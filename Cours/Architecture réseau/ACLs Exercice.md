@@ -51,7 +51,7 @@ R1# show access-lists ?
 
 WORD ACL name
 
-<cr>
+cr
 
 If you know the ACL number or name, you can filter the show output further. However, R1 only has one ACL; therefore, the show access-lists command will suffice.
 
@@ -113,7 +113,7 @@ Oui ça ping.
 
 
 
-Exercice : 5.1.8 Packet Tracer - Configure Numbered Standard IPv4 ACLs
+## Exercice : 5.1.8 Packet Tracer - Configure Numbered Standard IPv4 ACLs
 
 
 
@@ -217,7 +217,7 @@ b.     With the two ACLs in place, network traffic is restricted according to th
 
 ·         A ping from 192.168.30.10 to 192.168.20.254 succeeds.
 
-# Tout les ping marche bien
+#### Tout les ping marche bien
 
 
 c.     Issue the show access-lists command again on routers R2 and R3. You should see output that indicates the number of packets that have matched each line of the access list. Note: The number of matches shown for your routers may be different, due to the number of pings that are sent and received.
@@ -240,10 +240,10 @@ Standard IP access list 1
 
 20 permit any (8 match(es))
 
+![[Pasted image 20250305110340.png]]
 
 
-
-Exercice : 5.1.9 Packet Tracer - Configure Named Standard IPv4 ACLs
+## Exercice : 5.1.9 Packet Tracer - Configure Named Standard IPv4 ACLs
 
 
 Objectives
@@ -307,4 +307,7 @@ Step 2: Verify that the ACL is working properly.
 All three workstations should be able to ping the Web Server, but only PC1 and the Web Server should be able to ping the File Server. Repeat the show access-lists command to see the number of packets that matched each statement.
 
 
+![[Pasted image 20250305105812.png]]
 
+
+## Exercice : 5.2.7 Packet Tracer - Configure and Modify Standard IPv4 ACLs
