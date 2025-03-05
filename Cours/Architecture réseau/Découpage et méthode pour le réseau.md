@@ -29,5 +29,10 @@ SERVERS 10 : 172.16.1.128 à 172.16.1.143 /28
 ![[Pasted image 20241104112027.png]]
 
 ![[Pasted image 20241104114951.png]]
+/12
+
+
+Important : 
+## Pour trouvé le nom du réseau tout mettre en binaire puis par rapport au /x conté jusqu'à atteindre le x puis mettre tout a zéro après le / et on trouve le nom du réseau
 
 

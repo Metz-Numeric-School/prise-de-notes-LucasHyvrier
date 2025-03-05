@@ -23,5 +23,32 @@ Mots clés :
 
 # Gestion des ACLs
 
-Wild card 
+### **Wild card** 
+
+Il faut mettre tout a 1 puis soustraire le masque. Exemple : 
+
+	255 . 255 . 255 . 255
+	255 . 255 . 255 .  0   / 24
+	----------------------;
+	  0  .  0  .  0 .  255
+
+
+	255 . 255 . 255 . 255
+	255 . 255 . 255 . 192   /26
+	-----------------------;
+	0   .  0  .  0  .  64
+
+
+# Commande ACLs
+
+
+access-list
+
+ip access-list
+
+
+Vérification : 
+
+show access-list
+show ip interface
 
