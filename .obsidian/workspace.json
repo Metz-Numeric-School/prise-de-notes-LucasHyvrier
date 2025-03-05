@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/Architecture réseau/ACLs Exercice.md",
+                "file": "Cours/Architecture réseau/ACLs/ACLs Exercice.md",
                 "mode": "source",
                 "source": false
               },
@@ -176,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,13 +191,16 @@
   },
   "active": "5463322869fc8c20",
   "lastOpenFiles": [
+    "Cours/Architecture réseau/ACLs/Commande ACLs.md",
+    "Cours/Architecture réseau/ACLs/ACLs Exercice.md",
+    "Pasted image 20250305114833.png",
+    "Cours/Architecture réseau/ACLs",
     "Pasted image 20250305110340.png",
     "Pasted image 20250305110330.png",
     "Pasted image 20250305105812.png",
     "Pasted image 20250305105727.png",
     "Pasted image 20250305105712.png",
-    "Cours/Architecture réseau/ACLs - Access Control List.md",
-    "Cours/Architecture réseau/ACLs Exercice.md",
+    "Cours/Architecture réseau/ACLs/ACLs - Access Control List.md",
     "Pasted image 20250305092547.png",
     "Pasted image 20250305091948.png",
     "2025-01-06.md",
@@ -208,8 +211,6 @@
     "Cours/Architecture réseau/Switch ou Hub 07-01-2025.md",
     "Pasted image 20241106133935.png",
     "Pasted image 20241106140801.png",
-    "Pasted image 20241106140808.png",
-    "Pasted image 20241106153401.png",
     "Cours/Culture Juridique/Culture Juridique 22-01-2025.md",
     "Cours/Culture Juridique/Culture Juridique 09-10-2024.md",
     "Cours/Cloud/Cloud 07-10-2024.md",
@@ -228,7 +229,6 @@
     "Cours/Sécurité des systèmes",
     "Cours/Anglais/Anglais 13-11-2024.md",
     "Cours/Anglais/Anglais 14-10-2024.md",
-    "README.md",
     "Sans titre.canvas",
     "Sans titre 1.canvas",
     "Sans titre 2.canvas",
@@ -238,7 +238,6 @@
     "Cours/Architecture réseau",
     "Cours/Windows-Server-DNS",
     "Cours/Anglais",
-    "Cours/Culture Juridique",
-    "Cours/Image"
+    "Cours/Culture Juridique"
   ]
 }
