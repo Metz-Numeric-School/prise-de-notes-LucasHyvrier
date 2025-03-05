@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/Architecture réseau/ACLs - Access Control List.md",
+                "file": "Cours/Architecture réseau/ACLs Exercice.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ACLs - Access Control List"
+              "title": "ACLs Exercice"
             }
           }
         ],
@@ -191,10 +191,12 @@
   },
   "active": "5463322869fc8c20",
   "lastOpenFiles": [
+    "Pasted image 20250305105712.png",
+    "Cours/Architecture réseau/ACLs - Access Control List.md",
+    "Cours/Architecture réseau/ACLs Exercice.md",
     "Pasted image 20250305092547.png",
     "Pasted image 20250305091948.png",
     "2025-01-06.md",
-    "Cours/Architecture réseau/ACLs - Access Control List.md",
     "Cours/Architecture réseau/Découpage et méthode pour le réseau.md",
     "Cours/Architecture réseau/Architecture réseau 05-11-2024.md",
     "Cours/Architecture réseau/PNET LAB.md",
@@ -208,7 +210,6 @@
     "Pasted image 20241120085420.png",
     "Pasted image 20241120090649.png",
     "Pasted image 20241120090716.png",
-    "Pasted image 20241120091241.png",
     "Cours/Culture Juridique/Culture Juridique 22-01-2025.md",
     "Cours/Culture Juridique/Culture Juridique 09-10-2024.md",
     "Cours/Cloud/Cloud 07-10-2024.md",
@@ -231,7 +232,6 @@
     "Sans titre.canvas",
     "Sans titre 1.canvas",
     "Sans titre 2.canvas",
-    "Cours/Connaissances générales et comportementale/Connaissances générales et comportementale 02-12-2024.md",
     "Cours/Connaissances générales et comportementale",
     "Cours/Windows-Server-Avancé",
     "Cours/Projet",
