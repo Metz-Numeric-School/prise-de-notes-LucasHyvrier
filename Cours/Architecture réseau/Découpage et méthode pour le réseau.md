@@ -36,3 +36,12 @@ Important :
 ## Pour trouvé le nom du réseau tout mettre en binaire puis par rapport au /x conté jusqu'à atteindre le x puis mettre tout a zéro après le / et on trouve le nom du réseau
 
 
+
+# Classe Adresse IP
+
+
+A/8 :  10.x.x.x / 8
+B/10 : 172.16.x.x / 12
+C/24 : 192.168.x.x /16
+
+192.168.0.0 -> 192.168.255.255 = 65536 adresses

@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/Architecture réseau/ACLs/ACLs Exercice.md",
+                "file": "Cours/Architecture réseau/Découpage et méthode pour le réseau.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ACLs Exercice"
+              "title": "Découpage et méthode pour le réseau"
+            }
+          },
+          {
+            "id": "d77b3cce138e4e4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cours/Sécurité des systèmes/PROXY TP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PROXY TP"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 213.5
   },
   "right": {
     "id": "78f6df6de190eea1",
@@ -174,12 +189,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5463322869fc8c20",
+  "active": "d77b3cce138e4e4a",
   "lastOpenFiles": [
-    "Cours/Linux/SSH.md",
-    "Cours/Architecture réseau/ACLs/ACLs Exercice.md",
-    "Pasted image 20250305135135.png",
+    "Cours/Architecture réseau/Proxy.md",
+    "Cours/Sécurité des systèmes/PROXY TP.md",
+    "Cours/Sécurité des systèmes/PROXY.md",
+    "Cours/Gestion de parc/Gestion de parc 25-09-2024.md",
+    "Cours/Gestion de parc/Gestion de parc 02-10-2024.md",
     "Cours/Architecture réseau/ACLs/Commande ACLs.md",
+    "Cours/Architecture réseau/ACLs/ACLs Exercice.md",
+    "Cours/Linux/SSH.md",
+    "Pasted image 20250305135135.png",
     "Pasted image 20250305114833.png",
     "Cours/Architecture réseau/ACLs",
     "Pasted image 20250305110340.png",
@@ -208,12 +228,8 @@
     "Cours/Windows-Server-Avancé/Windows-Server-DNS 15-10-2024.md",
     "Cours/Anglais/Anglais 19-11-2024.md",
     "Cours/Linux",
-    "Cours/Sécurité des systèmes/PROXY.md",
     "Cours/Anglais/Anglais 12-11-2024.md",
-    "Cours/Anglais/Anglais 13-01-2025.md",
     "Cours/Sécurité des systèmes",
-    "Cours/Anglais/Anglais 13-11-2024.md",
-    "Cours/Anglais/Anglais 14-10-2024.md",
     "Sans titre.canvas",
     "Sans titre 1.canvas",
     "Sans titre 2.canvas",

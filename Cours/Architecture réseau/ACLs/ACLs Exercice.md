@@ -763,3 +763,88 @@ Les ACL nommées sont plus lisibles car elles utilisent des noms explicites au l
 
 ## Exercice : 5.4.13 Packet Tracer - Configure Extended IPv4 ACLs - Scenario 2
 
+### **Partie 1 : Configurer une ACL Étendue Nommée**
+
+#### **Étape 1 : Bloquer l’accès HTTP et HTTPS de PC1 vers Server1 et Server2**
+
+1. **Quelle est la commande pour commencer la configuration d'une ACL nommée "LimitedAccess" ?**  
+    → **`RT1(config)# ip access-list extended LimitedAccess`**
+
+---
+
+### **Étape 2 : Bloquer l’accès FTP de PC2 vers Server1 et Server2**
+
+1. **Quelle est la commande pour bloquer l'accès FTP de PC2 à Server1 ?**  
+    → **`RT1(config-ext-nacl)# deny tcp host 172.31.1.102 host 64.101.255.254 eq ftp`**
+    
+3. **Quelle est la commande pour bloquer l'accès FTP de PC2 à Server2 ?**  
+    → **`RT1(config-ext-nacl)# deny tcp host 172.31.1.102 host 64.103.255.254 eq ftp`**
+    
+
+---
+
+### **Étape 3 : Bloquer ICMP entre PC3 et Server1/Server2**
+
+1. **Quelle est la commande pour bloquer ICMP entre PC3 et Server1 ?**  
+    → **`RT1(config-ext-nacl)# deny icmp host 172.31.1.103 host 64.101.255.254`**
+    
+5. **Quelle est la commande pour bloquer ICMP entre PC3 et Server2 ?**  
+    → **`RT1(config-ext-nacl)# deny icmp host 172.31.1.103 host 64.103.255.254`**
+    
+
+---
+
+### **Étape 4 : Autoriser tout autre trafic**
+
+1. **Quelle est la commande pour permettre tout autre trafic qui ne correspond pas aux règles précédentes ?**  
+    → **`RT1(config-ext-nacl)# permit ip any any`**
+
+---
+
+### **Partie 2 : Appliquer et Vérifier l’ACL**
+
+#### **Étape 1 : Appliquer l’ACL à la bonne interface**
+
+1. **Sur quelle interface l'ACL nommée "LimitedAccess" doit-elle être appliquée et dans quelle direction ?**  
+    → **Interface : GigabitEthernet connectée au réseau 172.31.1.96/27** (probablement **GigabitEthernet0/1**).  
+    → **Direction : IN (Entrée)**, car on veut filtrer le trafic dès qu'il entre dans le routeur.
+    
+8. **Quelle commande appliquer l’ACL sur cette interface ?**  
+    →
+    
+    ```bash
+    RT1(config)# interface GigabitEthernet0/1
+    RT1(config-if)# ip access-group LimitedAccess in
+    ```
+    
+
+---
+
+### **Étape 2 : Tester l’accès**
+
+1. **Que doivent tester les utilisateurs pour vérifier le bon fonctionnement de l’ACL ?**
+    - **Depuis PC1** :
+        
+        - **Tenter d’accéder aux sites web (HTTP et HTTPS) de Server1 et Server2** → **Doit échouer**
+        - **Tester FTP vers Server1 et Server2** → **Doit réussir**
+        - **Tester le ping vers Server1 et Server2** → **Doit réussir**
+    - **Depuis PC2** :
+        
+        - **Tester FTP vers Server1 et Server2** → **Doit échouer**
+        - **Tester HTTP/HTTPS vers Server1 et Server2** → **Doit réussir**
+        - **Tester le ping vers Server1 et Server2** → **Doit réussir**
+    - **Depuis PC3** :
+        
+        - **Tester le ping vers Server1 et Server2** → **Doit échouer**
+        - **Tester HTTP/HTTPS et FTP vers Server1 et Server2** → **Doit réussir**
+
+---
+
+### **Étape 3 : Vérification**
+
+1. **Quelle commande permet de vérifier quelles règles de l’ACL ont été activées ?**  
+    → **`RT1# show ip access-lists`**
+    
+11. **Comment effacer les compteurs des ACL pour recommencer un test propre ?**  
+    → **`RT1# clear access-list counters`**
+    
