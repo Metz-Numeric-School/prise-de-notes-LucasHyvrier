@@ -8,3 +8,8 @@ Hyper-V                                                                         
 
 
 
+Etape 1 :  
+- Topologie physique (emplacement + câbles)
+- Topologie logique (interfaces + adresse IP)
+- Présentation de l'installation -> clé USB bootable = procédure
+- 
