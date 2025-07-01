@@ -36,3 +36,5 @@ Who is Bill Gates ?
 An american businessman sofware developper
 Born in 28 october, 1955 in Seattle
 Co-founding Microsoft in 1975 
+
+
