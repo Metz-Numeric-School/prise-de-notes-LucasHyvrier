@@ -12,4 +12,12 @@ Etape 1 :
 - Topologie physique (emplacement + câbles)
 - Topologie logique (interfaces + adresse IP)
 - Présentation de l'installation -> clé USB bootable = procédure
-- 
+                        ...-> pré-requis
+
+Etape 2 : 
+- Installation et paramétrage
+
+Etape 3 :
+- Création de VMs
+
+
